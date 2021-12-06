@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    table, th, td {
+      border: 2px solid black;
+      border-collapse: collapse;
+    }
+    </style>
+</head>
+<body>
+    <h1>
+        Hello, {{name}}!
+    </h1>
+    <p>Today's technology healines are...</p>
+      <table>
+        <tr>
+          <th>Title</th>
+          <th>Thumbnail</th>
+        </tr>
+        <tr>
+          <td><p> <a href='{{url_list[0]}}'>{{list[0]}}</a></td>
+          <td><img src="{{image_list[0]}}" alt="HTML5 Icon" width="256" height="256"> </td>
+        </tr>
+        <tr>
+            <td><p> <a href='{{url_list[1]}}'>{{list[1]}}</a></td>
+            <td><img src="{{image_list[1]}}" alt="HTML5 Icon" width="256" height="256"> </td>
+        </tr>
+        <tr>
+            <td><p> <a href='{{url_list[2]}}'>{{list[2]}}</a></td>
+            <td><img src="{{image_list[2]}}" alt="HTML5 Icon" width="256" height="256"> </td>
+        </tr>
+        <tr>
+        <td><p> <a href='{{url_list[3]}}'>{{list[3]}}</a></td>
+        <td><img src="{{image_list[3]}}" alt="HTML5 Icon" width="256" height="256"> </td>
+        </tr>
+        <tr>
+        <td><p> <a href='{{url_list[4]}}'>{{list[4]}}</a></td>
+        <td><img src="{{image_list[4]}}" alt="HTML5 Icon" width="256" height="256"> </td>
+        </tr>
+      </table>
+</body>
+</html>
